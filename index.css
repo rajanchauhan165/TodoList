@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 241, 247);
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: rgb(163, 189, 230);
+    padding: 0;
+}
+.subbar{
+    width: 80%;
+    height: auto;
+    background-color: rgb(163, 189, 230);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+i,a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(47, 59, 114);
+}
+
+.main{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px 20px 80px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(40, 40, 196, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+input,select{
+    width: 99%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    background-color: rgb(241, 241, 247);
+}
+
+table, td, th {
+    border: 1px solid rgb(190, 190, 190);
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+h2{
+  text-align: center;
+  color:rgb(47, 59, 114);
+  font-size: 30px;
+}
+select{
+    width: 100%;
+}
+
+.submitbtn{
+    width: 100%;
+    background-color:rgb(47, 59, 114);
+    font-size: 20px;
+    font-weight: bolder;
+    color: #F1F1F7;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(57, 57, 117, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 25px;
+    
+}
+.submitbtn:hover{
+    color: white;
+    background-color:rgb(75, 84, 128);
+}
+.msc{
+    text-align: center;
+    color: green;
+}
+td{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(77, 139, 77);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(0.9);
+}
